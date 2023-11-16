@@ -11,13 +11,21 @@ First, to download the ERA5 data, use the functions download_dailyERA5_fluxes.py
 Secondly, here is a description of the 9 sections in main_toolkit_windevents.py (that uses functions in fcts_toolkit_windevents.py, and note that the computational python prerequisites/installation are not described as we use commonly used modules):
 
 Section 1) loads the data (and some preprocessing)
+
 Section 2) creates regional averages of variables (modify the region), and plots their time series
+
 Section 3) creates the seasonal cycle of variables
+
 Section 4) filters the seasonal cycle to get only the intraseasonal variability
+
 Section 5) detects and selects the wind events
+
 Section 6) computes the spatial patterns of the variables - absolute and in anomaly - at the selected dates
+
 Section 7) plots the maps of the absolute values during the wind events
+
 Section 8) plots the maps of the anomalies during the wind events
+
 Section 9) proposes a way to export these spatial patterns to netcdf files for further implementation in model grids
 
 ## Contact 
